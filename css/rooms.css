@@ -1,0 +1,326 @@
+/*////////////// MASTER STYLES - START //////////////*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+*, html {
+  padding:0;
+  margin:0;
+}
+
+body {
+  background: url("../images/bg.jpg") repeat scroll 0 0 #032349;
+  font-family: 'Helvetica Neue',arial,sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+div.container {
+  background-color: #FFFFFF;
+  border-bottom: 10px solid #FFFFFF;
+  border-left: 10px solid #FFFFFF;
+  border-right: 10px solid #FFFFFF;
+  clear: both;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 960px;
+}
+
+div#header {
+  background: url("../images/header.jpg") no-repeat scroll left top #FFFFFF;
+  border-bottom: 10px solid #0D395F;
+  height: 110px;
+  margin: 0 auto 20px;
+  padding: 0 20px;
+  position: relative;
+  width: 920px;
+}
+div#header div.padding {
+  padding: 30px 20px 0 125px;
+}
+div#header h1, div#header h2 {
+  overflow: hidden;
+  text-indent: -99999em;
+}
+div.header-rhs {
+  background: url("../images/search-bg.jpg") repeat scroll left bottom #DEDEDE;
+  height: 110px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 260px;
+}
+div.header-rhs h3 {
+    background: url("../images/heart.png") no-repeat scroll center 8px transparent;
+    color: #999;
+    font-family: 'Love Ya Like A Sister',cursive;
+    font-size: 1.3em;
+    line-height: 120%;
+    padding: 82px 10px 10px;
+    text-align: center;
+    display: none;
+}
+
+nav {
+  background: url("../images/nav_bg.png") repeat-x scroll 50% 50% transparent;
+  font-size: 1.4em;
+  height: 38px;
+  line-height: 40px;
+  padding: 7px 0 8px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 870px;
+  margin:10px auto;
+}
+.after, .before {
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+nav .before {
+  background: url("../images/nav_before_bg.png") no-repeat scroll 0 0 transparent;
+  left: -63px;
+  top: 1px;
+  width: 66px;
+}
+nav .after {
+    background: url("../images/nav_after_bg.png") no-repeat scroll 0 0 transparent;
+    right: -61px;
+    top: 1px;
+    width: 61px;
+}
+nav li {
+    display: inline;
+    margin: 0 17px 0 0;
+}
+nav li:after {
+    color: #597278;
+    content: "♥";
+    margin-left: 17px;
+}
+nav li.last:after {
+    content: "";
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 0.8em;
+    transition: all 0.15s ease-in-out 0s;
+}
+
+div#footer {
+    background: url("../images/logo-white.jpg") no-repeat scroll 25px center #DCDCDC;
+    clear: both;
+    color: #686868;
+    font-family: 'Garamond',Time New Roman,Arial;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 auto;
+    position: relative;
+    width: 980px;
+}
+div#footer div.padding {
+    padding: 20px 10px 25px 120px;
+}
+div#footer a {
+    color: #686868;
+    text-decoration: none;
+}
+div.fb-like {
+    position: absolute;
+    right: 40px;
+    top: 25px;
+}
+
+/*////////////// MASTER STYLES - END //////////////*/
+
+div.intro {
+  padding: 10px 15px 35px;
+}
+div.intro h2 {
+  font-size: 1.6em;
+  padding-bottom: 10px;
+  color: #444444;
+}
+div.intro p {
+  font-size: 12px;
+  color:#444444;
+}
+
+.button {
+	padding: 10px 25px;
+	font-size: 13px;
+	margin: auto;
+	background-color: #809498;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+}
+.button:hover {
+	background-color: #8A7A73;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+span.booked {
+	color: #F10000;
+	display: block;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+table {
+	margin-bottom: 20px;
+}
+
+table tr {
+	border-bottom: dashed 1px #CCCCCC;
+}
+table tr.booked {
+	opacity:0.5;
+}
+table tr.heading {
+	color: #FFFFFF;
+	background: url("../images/photos_bg.png") repeat scroll 0 0 transparent;
+	border: none;
+}
+
+table tr td {
+	vertical-align: top;
+	padding: 20px 10px;
+  color: #444444;
+}
+body.admin table tr td {
+  padding: 10px;
+}
+
+table tr td img {
+	border: solid 5px #FFFFFF;
+}
+table tr td img:hover {
+	opacity:0.8;
+}
+
+h3.floor {
+  color: #809498;
+  display: block;
+  font-size: 1.7em;
+  line-height: 100%;
+  text-align: center;
+}
+h3.floor a {
+  color: #809498;
+  display: block;
+  text-decoration: none;
+  font-size: 12px;
+}
+h3.floor a:hover {
+  text-decoration: underline;
+}
+table tr td h3 {
+  display: block;
+  font-size: 1.4em;
+  line-height: 100%;
+  margin: 0 0 8px;
+  text-align: left;
+}
+table tr td p {
+	text-align: left;
+}
+table tr td p strong {
+	font-weight: bold;
+}
+
+table tr td.price,
+table tr td.beds {
+  font-size: 1.0em;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+table tr td.price {
+	font-size: 2.0em;
+}
+table tr td.book {
+	vertical-align: middle;
+}
+
+
+
+
+/*Book Room - PopUp */
+div#book-room h2 {
+  display: block;
+  font-size: 2.4em;
+  line-height: 100%;
+  margin: 0 0 8px;
+  text-align: left;
+}
+div#book-room h3.price {
+  color: green;
+}
+div#book-room form {
+  padding: 20px 0 0 0;
+}
+div#book-room table {
+  width: 800px;
+  margin:0;
+}
+div#book-room table tr {
+  border: none;
+}
+div#book-room table tr td {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+}
+div#book-room table tr td ul {
+  list-style: none;
+}
+div#book-room table tr td img:hover {
+    opacity:1;
+}
+
+div#book-room table label {
+  width: 120px;
+  display: block;
+  float: left;
+  color: #444444;
+}
+div#book-room table input[type=text],
+div#book-room table select {
+  width: 300px;
+  padding: 3px;
+  border: solid 1px #CCC;
+  background-color: #EFEFEF;
+  margin-bottom: 10px;
+}
+div#book-room .button {
+	margin-left: 120px;
+}
+
+
+div#book-room table input.error {
+  border: solid 1px red;
+}
+div#book-room table label.error {
+    clear: both;
+    color: red;
+    display: block;
+    float: none;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    text-align: right;
+    width: auto;
+}
+
+
+
+
+
+

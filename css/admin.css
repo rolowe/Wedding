@@ -1,0 +1,123 @@
+h2 {
+  color: #809498;
+  display: block;
+  font-size: 1.9em;
+  line-height: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+/*/////// ADMIN GENERAL STYLES ////////*/
+
+div.admin-menu {
+  width: 200px;
+  float:left;
+}
+div.admin-menu ul li {
+    display: block;
+}
+div.admin-menu ul li a {
+    background-color: #E8E8E8;
+    border-bottom: 1px solid #FFFFFF;
+    color: #373737;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+div.admin-menu ul li a:hover {
+    background-color: #F4F0F0;
+}
+
+
+
+/*/////// ADMIN OUR DETAILS STYLES ////////*/
+form.edit-profile {
+  padding: 20px 40px;
+  float: left;
+  margin: 0 20px 40px 70px;
+  background-color: #EFEFEF;
+}
+form.edit-profile label {
+  display: inline-block;
+  width: 150px;
+  padding-right: 20px;
+  text-align: right;
+}
+form.edit-profile input {
+  padding: 5px;
+  border: solid 1px #CCCCCC;
+  color: #333;
+  width: 320px;
+}
+form.edit-profile input.button {
+  width: auto;
+  float: right;
+  clear: both;
+  color: #FFFFFF;
+  padding: 10px 25px;
+  display: block;
+}
+
+
+
+form p {
+  padding-bottom: 10px;
+}
+
+
+/*/////// ADMIN LOGIN STYLES ////////*/
+form.login {
+  width: 345px;
+  margin:50px auto 80px;
+}
+form.login label {
+  display: inline-block;
+  width: 60px;
+  padding-right: 20px;
+  color: #686868;
+}
+form.login input {
+  padding: 5px;
+  border: solid 1px #CCCCCC;
+  color: #333;
+  width: 250px;
+}
+form.login input.button {
+  width: auto;
+  float: right;
+  clear: both;
+  color: #FFFFFF;
+  padding: 10px 25px;
+  display: block;
+}
+form.login a {
+  color: #686868;
+  text-decoration: none;
+}
+form.login a:hover {
+  text-decoration: underline;
+}
+span.error {
+  color: red;
+}
+
+
+
+.button {
+  background-color: #809498;
+  border: medium none;
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: bold;
+  margin: auto;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial;
+}
+.button:hover {
+  background-color: #8A7A73;
+  text-decoration: none;
+  cursor: pointer;
+}
